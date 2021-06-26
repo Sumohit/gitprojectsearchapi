@@ -1,4 +1,3 @@
-This is a take home test project of informatica. 
 
 #Problem statement :- 
 Write a REST service in Java which takes a language as input (e.g. rust, go, coffeescript, …) and provides a JSON output, listing all the projects that are using that language in GitHub
