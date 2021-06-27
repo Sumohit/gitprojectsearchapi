@@ -16,7 +16,10 @@ import com.informatica.exceptionHandler.RestClientException;
 import com.informatica.service.SearchService;
 
 @RestController
-@RequestMapping("/search-api")
+@RequestMapping(
+		  value = "/search-api",
+		  produces = "application/json"
+		)
 public class SearchController {
 
 	@Autowired
